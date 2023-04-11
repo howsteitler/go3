@@ -1,0 +1,393 @@
+html {
+  position: relative;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: arial, sans-serif;
+	background-color: #1b1a1b;
+}
+
+.container {
+	color: #fff;
+	min-width: 320px;/*
+	max-width: 1500px;*/
+	max-width: 1250px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+img, svg {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+  margin: 0;
+}
+
+iframe {
+  border: none;
+}
+
+header {
+	background-image: url('../img/game_over.png');
+	background-size: 675px 760px;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	max-height: 920px;
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+
+
+.condiv {
+    min-height: 100vh;
+}
+
+.con-div__title {
+	font-size: 150px;
+	font-weight: 900;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.con-div__paragraph {
+	font-size: 28px;
+	padding-left: 100px;
+}
+
+
+
+.sal-section__title {
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 60px;
+}
+
+ul {
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+	margin: 0;
+}
+
+.sal-section__paragraph {
+	font-size: 70px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+}
+
+.sal-section__li {
+	display: inline-block;
+	width: 580px;
+	height: 350px;
+	padding-top: 135px;
+}
+
+.sal-section__li:not(:nth-child(2n)) {
+	margin-right: 20px;
+}
+
+.sal-section__li:nth-child(-n+2) {
+	margin-bottom: 20px;
+}
+
+.vibe {
+	background-image: url('../img/vibes.jpg');
+	background-size: 580px 350px;
+}
+
+.war {
+	background-image: url('../img/star_wars.jpg');
+	background-size: 580px 350px;
+}
+
+.west {
+	background-image: url('../img/wild_west.jpg');
+	background-size: 580px 350px;
+}
+
+.neon {
+	background-image: url('../img/neon_style.jpg');
+	background-size: 580px 350px;
+}
+
+
+
+.book-section__title {
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 50px;
+}
+
+.book-section {
+	margin: 0 auto;
+}
+
+
+
+.linkabout-section {
+	background-image: url('../img/about.jpg');
+	background-size: 600px 570px;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	padding-bottom: 0;
+	margin-bottom: 50px;
+}
+
+.linkabout-section__title {
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 50px;
+}
+
+/*.linkabout-section__img {
+	position: absolute;
+}*/
+
+.linkabout-section__div-text {
+	display: inline-block;
+	padding-left: 690px;
+}
+
+.linkabout-section__paragraph {
+	font-size: 20px;
+	margin: 0;
+}
+
+.linkabout-section__paragraph-first {
+	margin-bottom: 30px;
+}
+
+.linkabout-section__paragraph-second {
+	margin-bottom: 30px;
+}
+
+.linkabout-section__blockquote {
+	text-align: left;
+	margin: 0;
+}
+
+.linkabout-section__div {
+	text-align: right;
+}
+
+.linkabout-section__paragraph-blockquote {
+	font-size: 44px;
+	font-weight: 900;
+	white-space: pre-line;
+	margin: 0;
+	margin-bottom: 23px;
+	padding-left: 720px;
+	text-align: left;
+}
+
+.linkabout-section__img-div {
+	margin-right: 29px;
+}
+
+.linkabout-section__cite {
+	font-size: 20px;
+	align-items: right;
+	white-space: pre-line;
+	display: inline-block;
+	text-align: left;
+}
+
+
+
+.feedback-section__title {
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.feedback-section__img {
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+
+.feedback-section__figcaption {
+	font-size: 20px;
+	text-align: left;
+	clear: both;
+}
+
+.samoilov-figcap {
+	padding-left: 70px;
+}
+
+.grigorieva-figcap {
+	padding-left: 55px;
+}
+
+.iashchienko-figcap {
+	padding-left: 70px;
+}
+
+.feedback-section__text {
+	font-size: 20px;
+	padding-top: 50px;
+}
+
+
+
+.question-section__title {
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.question-section__list {
+	margin: 0;
+	padding: 0;
+}
+
+.question-section__list>.question-section__item {
+	background-color: #fff;
+    color: #1C1A1A;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px 70px;
+    list-style-type: none;
+    position: relative;
+}
+
+.question-section__list>.question-section__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.question-section__item:nth-child(2n) {
+	background-color: #440f51;
+	color: #fff;
+}
+
+.question-section__item:nth-child(2n):after {
+	background-image: url('../img/open.svg');
+	height: 45px;
+	width: 45px;
+	content: "";
+	background-size: contain;
+	display: inline-block;
+	position: absolute;
+	top: 25px;
+	right: 70px;
+}
+
+.question-section__item:nth-child(2n+1):after {
+	background-image: url('../img/open-purple.svg');
+	height: 45px;
+	width: 45px;
+	content: "";
+	background-size: contain;
+	display: inline-block;
+	position: absolute;
+	top: 25px;
+	right: 70px;
+}
+
+
+
+.footer-section__title {
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 55px;
+}
+
+.footer-address__item {
+	font-size: 24px;
+	font-weight: 700;
+	white-space: pre-line;
+	margin: 0;
+}
+
+.footer-address__direction-item {
+	margin-bottom: 38px;
+	position: relative;
+}
+
+.footer-address__direction-item:before {
+	content: url('../img/location.svg');
+}
+
+.footer-address__call-item {
+	margin-bottom: 11px;
+}
+
+.footer-address__call-item:before {
+	content: url('../img/phone_call.svg');
+}
+
+.footer-address__connection-item {
+	margin-bottom: 40px;
+}
+
+.footer-address__connection-item:before {
+	content: url('../img/mail.svg');
+}
+
+.footer__icon-div {
+	display: inline-block;
+}
+
+.footer__icon-img:not(:last-child) {
+	margin-right: 20px;
+}
+
+.titulo {
+	margin: 0;
+}
