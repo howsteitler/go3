@@ -97,6 +97,7 @@ iframe {
 }
 
 
+
 .condiv {
 	background-image: url('../img/game_over.png');
 	background-size: 675px 760px;
@@ -106,6 +107,7 @@ iframe {
 	max-width: 1250px;
 	margin: 0 auto;
     min-height: 100vh;
+    position: relative;
 }
 
 .condiv-section__div {
@@ -123,6 +125,54 @@ iframe {
 .con-div__paragraph {
 	font-size: 28px;
 	padding-left: 100px;
+	margin-bottom: 30px;
+}
+
+.condiv-section__addition-div {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 485px;
+}
+
+.addition-div__first-div {
+	margin-right: 45px;
+	margin-bottom: 150px;
+}
+
+.addition-div__text {
+	font-size: 30px;
+	text-transform: uppercase;
+	white-space: pre-line;
+	text-align: center;
+}
+
+.addition-div__text__pink {
+	font-weight: 900;
+	font-size: 100px;
+	color: #cd06ff;
+}
+.addition-div__text_small {
+	font-size: 75px;
+	padding-top: 35px;
+}
+
+.condiv-section__button {
+	font-weight: 700;
+	font-size: 26px;
+	text-transform: uppercase; 
+	padding: 25px 70px 25px 70px;
+	border: none;
+	border-radius: 10px;
+ 	color: inherit;
+ 	background-color: #6C0287;
+ 	cursor: pointer;
+ 	box-shadow: 0 0 15px #6C0287;
+}
+
+.header__down {
+	position: absolute;
+	left: 610px;
+	bottom: 90px;
 }
 
 
