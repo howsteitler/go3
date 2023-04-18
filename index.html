@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Game Over</title>
+</head>
+<body>
+		<header>
+			<section class="container condiv">
+				<h1 class="con-div__title">GAME OVER</h1>
+				<p class="con-div__paragraph">Новый формат игр и отдыха</p>
+			</section>
+		</header>
+
+		<main>
+			<section class="sal-section container">
+				<h2 class="sal-section__title">наши залы</h2>
+
+				<ul>
+					<li class="sal-section__li vibe">
+						<p class="sal-section__paragraph">80’s vibes</p>
+					</li>
+
+					<li class="sal-section__li war">
+						<p class="sal-section__paragraph">star wars</p>
+					</li>
+
+					<li class="sal-section__li west">
+						<p class="sal-section__paragraph">wild west</p>
+					</li>
+
+					<li class="sal-section__li neon">
+						<p class="sal-section__paragraph">neon style</p>
+					</li>
+				</ul>
+			</section>
+
+			<section id="book" class="book-section container">
+					<form action="https://jsonplaceholder.typicode.com/posts" method="post">
+
+						<h1 class="book-section__title">забронировать</h1>
+						<fieldset>
+							<label>
+								<input type="radio" name="sala" value="vibe" lang="en">80's vibes
+							</label>
+
+							<label>
+								<input type="radio" name="sala" value="star" lang="en">star wars
+							</label>
+
+							<label>
+								<input type="radio" name="sala" value="wild" lang="en">wild west
+							</label>
+
+							<label>
+								<input type="radio" name="sala" value="neon" lang="en">neon style
+							</label>
+						</fieldset>
+
+						<fieldset>
+							<legend>собери набор развлечений</legend>
+							<fieldset>
+								<legend>приставка:</legend>			
+								<label>
+									<input type="radio" name="prist" value="playstation" lang="en">PlayStation
+								</label>
+
+								<label>
+									<input type="radio" name="prist" value="sega" lang="en">Sega Mega Drive
+								</label>
+
+								<label>
+									<input type="radio" name="prist" value="xbox" lang="en">X-box One S
+								</label>
+
+								<label>
+									<input type="radio" name="prist" value="Dendy" lang="en">Dendy
+								</label>
+							</fieldset>
+
+							<fieldset>
+								<legend>настольные игры</legend>
+								<label>
+									<input type="checkbox" name="games" value="jenga" lang="en">Jenga
+								</label>
+
+								<label>
+									<input type="checkbox" name="games" value="monopoly" lang="en">Monopoly
+								</label>
+
+								<label>
+									<input type="checkbox" name="games" value="munch">Манчкин
+								</label>
+
+								<label>
+									<input type="checkbox" name="games" value="alias" lang="en">Alias
+								</label>
+							</fieldset>
+
+							<fieldset>
+								<legend>дополнительно:</legend>
+								<label>
+									<input type="checkbox" name="extra" value="karaoke">Караоке
+								</label>
+
+								<label>
+									<input type="checkbox" name="extra" value="vr"><span lang="en">VR</span>
+								</label>
+							</fieldset>
+						</fieldset>
+
+						<fieldset>
+							<legend>выберите дату и время:</legend>
+
+							<label>Дата*
+								<input type="date" name="date" required>
+							</label>
+
+							<label>Время*
+								<input type="time" name="time" required>
+							</label>
+
+							<label>Кол-во человек
+								<input type="number" name="amount" required>
+							</label>
+
+							<label>имя*
+								<input type="text" name="name">
+							</label>
+
+							<label>фамилия*
+								<input type="text" name="surname">
+							</label>
+
+							<label>номер телефона
+								<input type="tel" name="tel">
+							</label>
+
+							<input type="checkbox"><small>я старше 18ти лет</small>
+						</fieldset>
+
+						<button type="submit">забронировать</button>
+						<input type="checkbox"><small>согласен на обработку персональных данных</small>
+					</form>
+				</section>
+
+				<section id="linkabout" class="linkabout-section container">
+					<h2 class="linkabout-section__title">О нас</h2>
+
+					<div class="linkabout-section__div-text">
+						<p class="linkabout-section__paragraph linkabout-section__paragraph-first">Для наших гостей мы создали концептуально <i>новое
+						 игровое пространство виртуальной реальности</i>
+						  в центральной части города.</p>
+						<p class="linkabout-section__paragraph linkabout-section__paragraph-second">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира</p>
+					</div>
+
+					<blockquote class="linkabout-section__blockquote">
+						<p class="linkabout-section__paragraph-blockquote"><b>GAME OVER</b> -
+						это место 
+						незабываемых 
+						впечатлений</p>
+						<div class="linkabout-section__div">
+							<img src="img/feedback.png" alt="feedback" class="linkabout-section__img-div">
+							<cite class="linkabout-section__cite">Аркадий Абакшин,
+							создатель игровой 
+							территории <span lang="en">GAME OVER</span></cite>
+						</div>
+					</blockquote>
+				</section>
+
+				<section class="feedback-section container">
+					<h2 class="feedback-section__title">Отзывы посетителей</h2>
+
+					<figure class="feedback-section__figure">
+						<img src="../go3/img/samoilov.png" class="feedback-section__img samoilov-img">
+
+						<p class="feedback-section__text">Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p>
+						<figcaption class="feedback-section__figcaption samoilov-figcap">Макс Самойлов</figcaption>
+					</figure>
+
+					<figure class="feedback-section__figure">
+						<img src="../go3/img/grigorieva.png" class="feedback-section__img grigorieva-img">
+
+						<p class="feedback-section__text">Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет подобных заведений</p>
+						<figcaption class="feedback-section__figcaption grigorieva-figcap">Оксана Григорьева</figcaption>
+					</figure>
+
+					<figure class="feedback-section__figure">
+						<img src="../go3/img/iashchienko.png" class="feedback-section__img iashchienko-img">
+
+						<p class="feedback-section__text">Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн, попал в атмосферу космоса</p>
+						<figcaption class="feedback-section__figcaption iashchienko-figcap">Никита Ященко</figcaption>
+					</figure>
+				</section>
+
+				<section class="question-section container">
+					<h2 class="question-section__title">Частые вопросы</h2>
+					<ul class="question-section__list">
+						<li class="question-section__item"><h3 class="titulo">Можно ли забронировать комнату онлайн?</h3></li>
+						<li class="question-section__item"><h3 class="titulo">Могут ли мне вернуть деньги за бронь?</h3></li>
+						<li class="question-section__item"><h3 class="titulo">Какая комната самая популярная?</h3></li>
+						<li class="question-section__item"><h3 class="titulo">Как получить VIP карту?</h3></li>
+						<li class="question-section__item"><h3 class="titulo">Какая комната самая популярная?</h3></li>
+					</ul>
+				</section>
+		</main>
+
+		<footer>
+			<section class="footer-section container">
+				<h2 class="footer-section__title">Контакты</h2>
+					<address>
+						<ul>
+							<li>
+								<p class="footer-address__item footer-address__direction-item">г. Москва 
+								ул. Аквамарина, 16</p>
+							</li>
+
+							<li>
+								<p class="footer-address__item footer-address__call-item">8(950)930-28-93</p>
+							</li>
+
+							<li>
+								<p class="footer-address__item footer-address__connection-item">GameOver@gmail.com</p>
+							</li>
+						</ul>
+					</address>
+
+					<div class="footer__icon-div">
+						<img src="img/vk.svg" alt="vk" class="footer__icon-img">
+						<img src="img/telegram.svg" alt="telegram" class="footer__icon-img">
+						<img src="img/pinterest.svg" alt="pinterest" class="footer__icon-img">
+						<img src="img/stumbleupon.svg" alt="stumbleupon" class="footer__icon-img">
+					</div>
+				</section>
+		</footer>
+</body>
+</html>
