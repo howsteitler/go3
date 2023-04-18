@@ -72,6 +72,12 @@ header {
 
 
 
+.menu-section {
+	font-size: 22px;
+}
+
+
+
 .condiv {
     min-height: 100vh;
 }
@@ -168,13 +174,16 @@ li {
 }
 
 
-
-.linkabout-section {
+.linkabout-div {
 	background-image: url('../img/about.jpg');
 	background-size: 600px 570px;
 	background-repeat: no-repeat;
-	background-position: bottom left;
+	background-position: left bottom;
 	padding-bottom: 0;
+	margin-bottom: 50px;
+}
+
+.linkabout-section {
 	margin-bottom: 50px;
 }
 
@@ -186,10 +195,6 @@ li {
 	margin: 0;
 	margin-bottom: 50px;
 }
-
-/*.linkabout-section__img {
-	position: absolute;
-}*/
 
 .linkabout-section__div-text {
 	display: inline-block;
