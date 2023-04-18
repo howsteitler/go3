@@ -60,7 +60,44 @@ iframe {
   border: none;
 }
 
-header {
+
+
+.menu-section {
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.menu-section__divcon {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+
+.menu-section__nav{
+	display: flex;
+	align-items: center;
+}
+
+.menu-section__item:not(:last-child) {
+	margin-right: 40px;
+}
+
+.menu-section__button {
+	font-weight: 700;
+	font-size: 22px;
+	text-transform: uppercase; 
+	padding: 12px 32px 12px 32px;
+ 	border: 3px solid #CD06FF;
+ 	border-radius: 10px;
+ 	font: inherit;
+ 	color: inherit;
+ 	background-color: transparent;
+ 	cursor: pointer;
+}
+
+
+.condiv {
 	background-image: url('../img/game_over.png');
 	background-size: 675px 760px;
 	background-repeat: no-repeat;
@@ -68,18 +105,11 @@ header {
 	max-height: 920px;
 	max-width: 1250px;
 	margin: 0 auto;
-}
-
-
-
-.menu-section {
-	font-size: 22px;
-}
-
-
-
-.condiv {
     min-height: 100vh;
+}
+
+.condiv-section__div {
+	padding-top: 25px;
 }
 
 .con-div__title {
