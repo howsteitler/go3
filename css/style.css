@@ -226,6 +226,10 @@ iframe {
 
 
 
+.sal-section__div {
+	padding-bottom: 100px;
+}
+
 .sal-section__title {
 	font-size: 40px;
 	font-weight: 700;
@@ -289,18 +293,85 @@ li {
 
 
 
+.book-section__div {
+	padding-top: 80px;
+}
+
+.book-section {
+	background-color: #440F51;
+}
+
 .book-section__title {
 	font-size: 40px;
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
 	margin: 0;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
+}
+
+.book-section__choose-sala {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+
+.book-section__choose-radio {
+	appearance: none;
+}
+
+.book-section__choose-label {
+	font-weight: 700;
+	font-size: 30px;
+	color: #000;
+	background-color: #fff;
+	padding: 8px 25px 8px 25px;
+	border-radius: 8px;
+}
+
+.book-section__legend-title {
+	font-weight: 700;
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+.book-section__attraction-div {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+
+.book-section__common-div {
+	display: flex;
+	flex-direction: column;
+}
+
+.book-section__common-label {
+	font-weight: 400;
+	font-size: 22px;
+}
+
+.book-section__common-label:not(:last-child) {
+	margin-bottom: 22px;
+}
+
+.book-section__small-title {
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 40px;
 }
 
 .book-section {
 	margin: 0 auto;
 }
+
+.book-section__date-div {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
 
 
 .linkabout-div {

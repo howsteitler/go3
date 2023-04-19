@@ -87,7 +87,7 @@
 			</section>
 
 			<section class="sal-section">
-				<div class="container">
+				<div class="sal-section__div container">
 					<h2 class="sal-section__title">наши залы</h2>
 
 					<ul>
@@ -111,88 +111,96 @@
 			</section>
 
 			<section id="book" class="book-section">
-				<div class="container">
+				<div class="book-section__div container">
 					<form action="https://jsonplaceholder.typicode.com/posts" method="post">
 
-						<h1 class="book-section__title">забронировать</h1>
-						<fieldset>
-							<label>
-								<input type="radio" name="sala" value="vibe" lang="en">80's vibes
+						<h1 class="book-section__title">забронировать зал просто</h1>
+						<legend class="book-section__small-title">Выбери зал</legend>
+						
+						<div class="book-section__choose-sala">
+							<label class="book-section__choose-label">
+								<input type="radio" name="sala" value="vibe" lang="en" class="book-section__choose-radio">80'S VIBES
 							</label>
 
-							<label>
-								<input type="radio" name="sala" value="star" lang="en">star wars
+							<label class="book-section__choose-label">
+								<input type="radio" name="sala" value="star" lang="en" class="book-section__choose-radio">STAR WARS
 							</label>
 
-							<label>
-								<input type="radio" name="sala" value="wild" lang="en">wild west
+							<label class="book-section__choose-label">
+								<input type="radio" name="sala" value="wild" lang="en" class="book-section__choose-radio">WILD WEST
 							</label>
 
-							<label>
-								<input type="radio" name="sala" value="neon" lang="en">neon style
+							<label class="book-section__choose-label">
+								<input type="radio" name="sala" value="neon" lang="en" class="book-section__choose-radio">NEON STYLE
 							</label>
-						</fieldset>
+						</div>
+						
 
-						<fieldset>
-							<legend>собери набор развлечений</legend>
-							<fieldset>
-								<legend>приставка:</legend>			
-								<label>
-									<input type="radio" name="prist" value="playstation" lang="en">PlayStation
-								</label>
+						
+						<legend class="book-section__small-title">Cобери набор развлечений</legend>
+							<div class="book-section__attraction-div">
+								<div class="book-section__common-div">
+									<legend class="book-section__legend-title">Приставка:</legend>			
+									<label class="book-section__common-label">
+										<input type="radio" name="prist" value="playstation" lang="en">PlayStation
+									</label>
 
-								<label>
-									<input type="radio" name="prist" value="sega" lang="en">Sega Mega Drive
-								</label>
+									<label class="book-section__common-label">
+										<input type="radio" name="prist" value="sega" lang="en">Sega Mega Drive
+									</label>
 
-								<label>
-									<input type="radio" name="prist" value="xbox" lang="en">X-box One S
-								</label>
+									<label class="book-section__common-label">
+										<input type="radio" name="prist" value="xbox" lang="en">X-box One S
+									</label>
 
-								<label>
-									<input type="radio" name="prist" value="Dendy" lang="en">Dendy
-								</label>
-							</fieldset>
+									<label class="book-section__common-label">
+										<input type="radio" name="prist" value="Dendy" lang="en">Dendy
+									</label>
+								</div>
+							
 
-							<fieldset>
-								<legend>настольные игры</legend>
-								<label>
-									<input type="checkbox" name="games" value="jenga" lang="en">Jenga
-								</label>
+								<div class="book-section__common-div">
+									<legend class="book-section__legend-title">Настольные игры</legend>
+									<label class="book-section__common-label">
+										<input type="checkbox" name="games" value="jenga" lang="en">Jenga
+									</label>
 
-								<label>
-									<input type="checkbox" name="games" value="monopoly" lang="en">Monopoly
-								</label>
+									<label class="book-section__common-label">
+										<input type="checkbox" name="games" value="monopoly" lang="en">Monopoly
+									</label>
 
-								<label>
-									<input type="checkbox" name="games" value="munch">Манчкин
-								</label>
+									<label class="book-section__common-label">
+										<input type="checkbox" name="games" value="munch">Манчкин
+									</label>
 
-								<label>
-									<input type="checkbox" name="games" value="alias" lang="en">Alias
-								</label>
-							</fieldset>
+									<label class="book-section__common-label">
+										<input type="checkbox" name="games" value="alias" lang="en">Alias
+									</label>
+								</div>
+							
 
-							<fieldset>
-								<legend>дополнительно:</legend>
-								<label>
-									<input type="checkbox" name="extra" value="karaoke">Караоке
-								</label>
+								<div class="book-section__common-div">
+									<legend class="book-section__legend-title">Дополнительно:</legend>
+									<label class="book-section__common-label">
+										<input type="checkbox" name="extra" value="karaoke">Караоке
+									</label>
 
-								<label>
-									<input type="checkbox" name="extra" value="vr"><span lang="en">VR</span>
-								</label>
-							</fieldset>
-						</fieldset>
+									<label class="book-section__common-label">
+										<input type="checkbox" name="extra" value="vr"><span lang="en">VR</span>
+									</label>
+								</div>
+							</div>
+							
+						
 
-						<fieldset>
-							<legend>выберите дату и время:</legend>
-
-							<label>Дата*
+						
+						<legend class="book-section__small-title">Выберите дату и время:</legend>
+						<div class="book-section__date-div">
+							<label>Дата
 								<input type="date" name="date" required>
 							</label>
 
-							<label>Время*
+							<label>Время
 								<input type="time" name="time" required>
 							</label>
 
@@ -200,23 +208,24 @@
 								<input type="number" name="amount" required>
 							</label>
 
-							<label>имя*
+							<label>Имя
 								<input type="text" name="name">
 							</label>
 
-							<label>фамилия*
+							<label>Фамилия
 								<input type="text" name="surname">
 							</label>
 
-							<label>номер телефона
+							<label>Телефон
 								<input type="tel" name="tel">
 							</label>
 
-							<input type="checkbox"><small>я старше 18ти лет</small>
-						</fieldset>
+							<label>Телефон
+								<input type="email" name="email">
+							</label>
 
-						<button type="submit">забронировать</button>
-						<input type="checkbox"><small>согласен на обработку персональных данных</small>
+							<button type="submit">забронировать</button>
+						</div>
 					</form>
 				</div>
 			</section>
