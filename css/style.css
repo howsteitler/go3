@@ -441,16 +441,24 @@ li {
 	width: 135px;
 	height: 50px;
 	background-color: #fff;
-	border: none;
+	border: 2px solid transparent;
 	outline: none;
 	color: transparent;
+}
+
+.book-section__small-input:focus {
+	border: 2px solid #CD06FF;
 }
 
 .book-section__input {
 	width: 300px;
 	height: 50px;
-	border: none;
+	border: 2px solid transparent;
 	outline: none;
+}
+
+.book-section__input:focus {
+	border: 2px solid #cd06ff;
 }
 
 .book-section__an-label_date {
