@@ -295,6 +295,7 @@ li {
 
 .book-section__div {
 	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .book-section {
@@ -370,8 +371,121 @@ li {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	gap: 36px 50px;
+	margin-bottom: 40px;
 }
 
+.book-section__flex {
+	display: flex;
+	gap: 36px 32px;
+	flex-wrap: wrap;
+	max-width: 310px;
+}
+
+.book-section__try1-div {
+	position: relative;
+}
+
+.book-section__small-input {
+	width: 135px;
+	height: 50px;
+	background-color: #fff;
+	border: none;
+	outline: none;
+	color: transparent;
+}
+
+.book-section__input {
+	width: 300px;
+	height: 50px;
+	border: none;
+	outline: none;
+}
+
+.book-section__an-label_date {
+	color: #000;
+	position: absolute;
+	top: 17px;
+	left: 20px;
+}
+
+.book-section__an-label_date:after {
+	background-image: url('../img/Polygon.svg');
+	height: 15px;
+	width: 21px;
+	content: "";
+	background-size: contain;
+	display: inline-block;
+	position: absolute;
+	top: 2px;
+	right: -70px;
+}
+
+.book-section__try2-div {
+	position: relative;
+}
+
+.book-section__an-label_time {
+	color: #000;
+	position: absolute;
+	top: 17px;
+	left: 20px;
+}
+
+.book-section__an-label_time:after {
+	background-image: url('../img/Polygon.svg');
+	height: 15px;
+	width: 21px;
+	content: "";
+	background-size: contain;
+	display: inline-block;
+	position: absolute;
+	top: 2px;
+	right: -60px;
+}
+
+.book-section__try3-div {
+	position: relative;
+}
+
+.book-section__an-label_number {
+	color: #000;
+	position: absolute;
+	top: 17px;
+	left: 20px;
+}
+
+.book-section__an-label_number:after {
+	background-image: url('../img/Polygon.svg');
+	height: 15px;
+	width: 21px;
+	content: "";
+	background-size: contain;
+	display: inline-block;
+	position: absolute;
+	top: 2px;
+	right: -150px;
+}
+
+.book-section__above-label {
+	position: absolute;
+	margin-top: -20px;
+}
+
+.book-section__button-div {
+	display: flex;
+	justify-content: end;
+}
+
+.book-section__book-button {
+	width: 300px;
+	height: 60px;
+	border-radius: 10px;
+	font-weight: 700;
+	font-size: 22px;
+	color: #6C0287;
+	text-transform: uppercase;
+}
 
 
 .linkabout-div {
@@ -551,6 +665,11 @@ li {
 	text-align: center;
 	margin: 0;
 	margin-bottom: 55px;
+}
+
+.footer-section__flex {
+	display: flex;
+	justify-content: space-between;
 }
 
 .footer-address__item {

@@ -196,35 +196,48 @@
 						
 						<legend class="book-section__small-title">Выберите дату и время:</legend>
 						<div class="book-section__date-div">
-							<label>Дата
-								<input type="date" name="date" required>
-							</label>
+							<div class="book-section__flex">
+								<div class="book-section__try1-div">
+									<label for="date" class="book-section__an-label book-section__an-label_date">Дата</label>
+									<input type="date" name="date" id="date" class="book-section__small-input" required>	
+								</div>						
 
-							<label>Время
-								<input type="time" name="time" required>
-							</label>
+								<div class="book-section__try2-div">
+									<label for="time" class="book-section__an-label book-section__an-label_time">Время</label>
+									<input type="time" name="time" id="time" class="book-section__small-input" required>
+								</div>								
+							</div>
 
-							<label>Кол-во человек
-								<input type="number" name="amount" required>
-							</label>
+							<div class="book-section__try4-div">
+								<label for="name" class="book-section__above-label book-section__above-label_name">Имя</label>
+								<input type="text" name="name" id="name" class="book-section__input">
+							</div>
 
-							<label>Имя
-								<input type="text" name="name">
-							</label>
+							<div class="book-section__try5-div">
+								<label for="surname" class="book-section__above-label book-section__above-label_surname">Фамилия</label>
+								<input type="text" name="surname" id="surname" class="book-section__input">
+							</div>
 
-							<label>Фамилия
-								<input type="text" name="surname">
-							</label>
+							
 
-							<label>Телефон
-								<input type="tel" name="tel">
-							</label>
+							<div class="book-section__try3-div">
+								<label for="number" class="book-section__an-label book-section__an-label_number">Кол-во человек</label>
+								<input type="number" name="amount" id="number" class="book-section__input" required>
+							</div>
 
-							<label>Телефон
-								<input type="email" name="email">
-							</label>
+							<div class="book-section__try6-div">
+								<label for="tel" class="book-section__above-label book-section__above-label_tel">Телефон</label>
+								<input type="tel" name="tel" id="tel" class="book-section__input">
+							</div>
 
-							<button type="submit">забронировать</button>
+							<div class="book-section__try7-div">
+								<label for="email" class="book-section__above-label book-section__above-label_email">Почта</label>
+								<input type="email" name="email" id="email" class="book-section__input">
+							</div>			
+						</div>
+
+						<div class="book-section__button-div">
+							<button type="submit" class="book-section__book-button">забронировать</button>
 						</div>
 					</form>
 				</div>
@@ -301,29 +314,35 @@
 			<section class="footer-section">
 				<div class="container">
 					<h2 class="footer-section__title">Контакты</h2>
-						<address>
-							<ul>
-								<li>
-									<p class="footer-address__item footer-address__direction-item">г. Москва 
-									ул. Аквамарина, 16</p>
-								</li>
+					<div class="footer-section__flex">
+						<div>
+							<address>
+								<ul>
+									<li>
+										<p class="footer-address__item footer-address__direction-item">г. Москва 
+										ул. Аквамарина, 16</p>
+									</li>
 
-								<li>
-									<p class="footer-address__item footer-address__call-item">8(950)930-28-93</p>
-								</li>
+									<li>
+										<p class="footer-address__item footer-address__call-item">8(950)930-28-93</p>
+									</li>
 
-								<li>
-									<p class="footer-address__item footer-address__connection-item">GameOver@gmail.com</p>
-								</li>
-							</ul>
-						</address>
+									<li>
+										<p class="footer-address__item footer-address__connection-item">GameOver@gmail.com</p>
+									</li>
+								</ul>
+							</address>
 
-						<div class="footer__icon-div">
-							<img src="img/vk.svg" alt="vk" class="footer__icon-img">
-							<img src="img/telegram.svg" alt="telegram" class="footer__icon-img">
-							<img src="img/pinterest.svg" alt="pinterest" class="footer__icon-img">
-							<img src="img/stumbleupon.svg" alt="stumbleupon" class="footer__icon-img">
+							<div class="footer__icon-div">
+								<img src="img/vk.svg" alt="vk" class="footer__icon-img">
+								<img src="img/telegram.svg" alt="telegram" class="footer__icon-img">
+								<img src="img/pinterest.svg" alt="pinterest" class="footer__icon-img">
+								<img src="img/stumbleupon.svg" alt="stumbleupon" class="footer__icon-img">
+							</div>
 						</div>
+
+						<img src="img/map.jpg" class="footer-section__map-img">
+					</div>
 				</div>
 			</section>
 		</footer>
