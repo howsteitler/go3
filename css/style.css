@@ -95,6 +95,15 @@ iframe {
  	cursor: pointer;
 }
 
+.menu-section__button:hover, .menu-section__button:focus {
+	background-color: #6C0287;
+	border: 3px solid #6C0287;
+}
+
+.menu-section__button:active {
+	background-color: #640AA3;
+	border: 1px solid #000;
+}
 
 
 .condiv {
@@ -166,6 +175,14 @@ iframe {
  	background-color: #6C0287;
  	cursor: pointer;
  	box-shadow: 0 0 15px #6C0287;
+}
+
+.condiv-section__button:hover, .condiv-section__button:focus {
+	background-color: #840AA3;
+}
+
+.condiv-section__button:active {
+	background-color: #640AA3;
 }
 
 .header__down {
@@ -318,7 +335,7 @@ li {
 }
 
 .book-section__choose-radio {
-	appearance: none;
+	display: none;
 }
 
 .book-section__choose-label {
@@ -327,7 +344,26 @@ li {
 	color: #000;
 	background-color: #fff;
 	padding: 8px 25px 8px 25px;
+	border: 3px solid transparent;
 	border-radius: 8px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.book-section__choose-label:hover {
+	background-color: #EADEED;
+	border: 3px solid #640aa3;
+}
+
+.book-section__choose-label:active {
+	background-color: #6c0287;
+	border: 3px solid #fff;
+	color: #fff;
+}
+
+.book-section__choose-label:focus {
+	border: 3px solid #6c0287;
+	color: #000;
 }
 
 .book-section__legend-title {
@@ -481,11 +517,28 @@ li {
 	width: 300px;
 	height: 60px;
 	border-radius: 10px;
+	border: 3px solid transparent;
 	font-weight: 700;
 	font-size: 22px;
 	color: #6C0287;
 	text-transform: uppercase;
 }
+
+.book-section__book-button:hover {
+	background-color: #eadeed;
+	border: 3px solid #6C0287;
+}
+
+.book-section__book-button:active {
+	background-color: #eadeed;
+	border: 3px solid transparent;
+}
+
+.book-section__book-button:focus {
+	background-color: #fff;
+	border: 3px solid #6C0287;
+}
+
 
 
 .linkabout-div {
