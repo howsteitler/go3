@@ -86,6 +86,10 @@ iframe {
 	margin-right: 40px;
 }
 
+.menu-section__item {
+ 	transition-duration: 0.5s;
+ 	transition-property: color;
+}
 .menu-section__item:hover {
 	color: #CD06FF;
 }
@@ -101,6 +105,8 @@ iframe {
  	color: inherit;
  	background-color: transparent;
  	cursor: pointer;
+ 	transition-duration: 0.5s;
+ 	transition-property: background-color, border;
 }
 
 .menu-section__button:hover, 
@@ -183,6 +189,8 @@ iframe {
  	background-color: #6C0287;
  	cursor: pointer;
  	box-shadow: 0 0 15px #6C0287;
+ 	transition-duration: 0.5s;
+ 	transition-property: background-color, border;
 }
 
 .condiv-section__button:hover, 
@@ -201,6 +209,8 @@ iframe {
 	position: absolute;
 	left: 610px;
 	bottom: 90px;
+ 	transition-duration: 0.8s;
+ 	transition-property: background-image;
 }
 
 .header__down:hover {
@@ -243,26 +253,46 @@ iframe {
 
 .vr-glasses {
 	background-image: url('../img/glasses.jpg');
+	background-size: cover;
+	transition-duration: 1s;
 }
-
 .audio {
 	background-image: url('../img/audio_system.jpg');
+	background-size: cover;
+	transition-duration: 1s;
 }
 
 .karaoke {
 	background-image: url('../img/karaoke.jpg');
+	background-size: cover;
+	transition-duration: 1s;
 }
 
 .card-game {
 	background-image: url('../img/card_game.jpg');
+	background-size: cover;
+	transition-duration: 1s;
 }
 
 .cinema {
 	background-image: url('../img/cinema.jpg');
+	background-size: cover;
+	transition-duration: 1s;
 }
 
 .ps5 {
 	background-image: url('../img/playstation.jpg');
+	background-size: cover;
+	transition-duration: 1s;
+}
+
+.vr-glasses:hover,
+.audio:hover,
+.karaoke:hover,
+.card-game:hover,
+.cinema:hover,
+.ps5:hover {
+	transform: scale(1.1);
 }
 
 
@@ -315,21 +345,32 @@ li {
 .vibe {
 	background-image: url('../img/vibes.jpg');
 	background-size: 580px 350px;
+	transition-duration: 1s;
 }
 
 .war {
 	background-image: url('../img/star_wars.jpg');
 	background-size: 580px 350px;
+	transition-duration: 1s;
 }
 
 .west {
 	background-image: url('../img/wild_west.jpg');
 	background-size: 580px 350px;
+	transition-duration: 1s;
 }
 
 .neon {
 	background-image: url('../img/neon_style.jpg');
 	background-size: 580px 350px;
+	transition-duration: 1s;
+}
+
+.vibe:hover,
+.war:hover,
+.west:hover,
+.neon:hover {
+	transform: scale(1.1);
 }
 
 
@@ -368,6 +409,8 @@ li {
 	border: 3px solid transparent;
 	border-radius: 8px;
 	cursor: pointer;
+ 	transition-duration: 0.5s;
+ 	transition-property: background-color, border, color;
 }
 
 .book-section__choose-label, 
@@ -456,6 +499,8 @@ li {
 	border: 2px solid transparent;
 	outline: none;
 	color: transparent;
+ 	transition-duration: 0.5s;
+ 	transition-property: border;
 }
 
 .book-section__small-input:focus {
@@ -467,6 +512,8 @@ li {
 	height: 50px;
 	border: 2px solid transparent;
 	outline: none;
+ 	transition-duration: 0.5s;
+ 	transition-property: border;
 }
 
 .book-section__input:focus {
@@ -557,6 +604,8 @@ li {
 	font-size: 22px;
 	color: #6C0287;
 	text-transform: uppercase;
+ 	transition-duration: 0.5s;
+ 	transition-property: background-color, border;
 }
 
 .book-section__book-button:hover {
@@ -727,6 +776,8 @@ li {
 	position: absolute;
 	top: 25px;
 	right: 70px;
+ 	transition-duration: 0.5s;
+ 	transition-property: background-image;
 }
 
 .question-section__item:nth-child(2n):hover:after {
@@ -747,6 +798,8 @@ li {
 	position: absolute;
 	top: 25px;
 	right: 70px;
+ 	transition-duration: 0.5s;
+ 	transition-property: background-image;
 }
 
 .question-section__item:nth-child(2n+1):hover:after {
@@ -779,12 +832,14 @@ li {
 	font-weight: 700;
 	font-style: normal;
 	white-space: pre-line;
+	cursor: pointer;
+ 	transition-duration: 0.5s;
+ 	transition-property: color;
 	margin: 0;
 }
 
 .footer-address__item:hover {
 	color: #CD06FF;
-	cursor: pointer;
 }
 
 .footer-address__direction-item {
