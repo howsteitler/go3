@@ -13,6 +13,9 @@ body {
 	min-width: 320px;
 	max-width: 1250px;
 	margin: 0 auto;
+}
+
+.section {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -64,13 +67,14 @@ iframe {
 .menu-section {
 	font-size: 22px;
 	text-transform: uppercase;
+	padding-top: 40px;
+	padding-bottom: 25px;
 }
 
 .menu-section__divcon {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 40px;
-	padding-bottom: 25px;
+	padding: 0;
 }
 
 .menu-section__nav{
@@ -139,7 +143,6 @@ iframe {
 .condiv-section__addition-div {
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 485px;
 }
 
 .addition-div__first-div {
@@ -258,7 +261,7 @@ iframe {
 
 
 
-.sal-section__div {
+.sal-section {
 	padding-bottom: 100px;
 }
 
@@ -325,13 +328,10 @@ li {
 
 
 
-.book-section__div {
-	padding-top: 80px;
-	padding-bottom: 80px;
-}
-
 .book-section {
 	background-color: #440F51;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .book-section__title {
@@ -570,11 +570,6 @@ li {
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	padding-bottom: 0;
-	margin-bottom: 50px;
-}
-
-.linkabout-section {
-	margin-bottom: 50px;
 }
 
 .linkabout-section__title {
