@@ -255,9 +255,14 @@ iframe {
 	width: 380px;
 	height: 230px;
 	padding: 165px 40px 0 40px;
+	display: inline-block;
 }
 
 .rest-section__item:nth-child(3n+2) {
+	transform: translateY(70px);
+}
+
+.rest-section__item:nth-child(3n+2):hover {
 	transform: translateY(70px);
 }
 
