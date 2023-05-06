@@ -84,6 +84,10 @@ iframe {
 	align-items: center;
 }
 
+.menu-section__list {
+	display: flex;
+}
+
 .menu-section__item:not(:last-child) {
 	margin-right: 40px;
 }
