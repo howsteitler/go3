@@ -267,7 +267,7 @@ iframe {
 }
 
 .rest-section__item:nth-child(3n+2):hover {
-	transform: translateY(70px);
+	transform: translateY(70px) scale(1.1);
 }
 
 .vr-glasses {
