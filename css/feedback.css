@@ -1,0 +1,63 @@
+.feedback-section__title {
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.feedback-section__img {
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+
+.samoilov-img {
+	background-image: 
+		radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%),
+		url('../img/samoilov.png');
+	width: 280px;
+	height: 280px;
+	border-radius: 140px;
+}
+
+.grigorieva-img {
+	background-image: 
+		radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%),
+		url('../img/grigorieva.png');
+	width: 280px;
+	height: 280px;
+	border-radius: 140px;
+}
+
+.iashchienko-img {
+	background-image: 
+		radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%),
+		url('../img/iashchienko.png');
+	width: 280px;
+	height: 280px;
+	border-radius: 140px;
+}
+
+.feedback-section__figcaption {
+	font-size: 20px;
+	text-align: left;
+	clear: both;
+}
+
+.samoilov-figcap {
+	padding-left: 70px;
+}
+
+.grigorieva-figcap {
+	padding-left: 55px;
+}
+
+.iashchienko-figcap {
+	padding-left: 70px;
+}
+
+.feedback-section__text {
+	font-size: 20px;
+	padding-top: 50px;
+}

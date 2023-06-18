@@ -1,0 +1,80 @@
+.rest-section {
+	padding-bottom: 85px;
+}
+
+.rest-section__title {
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: pre-line;
+	margin-bottom: 40px;
+}
+
+.rest-section__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 40px 20px;
+}
+
+.rest-section__item {
+	font-weight: 700px;
+	font-size: 20px;
+	width: 380px;
+	height: 230px;
+	padding: 165px 40px 0 40px;
+	display: inline-block;
+}
+
+.rest-section__item:nth-child(3n+2) {
+	transform: translateY(70px);
+}
+
+.rest-section__item:nth-child(3n+2):hover {
+	transform: translateY(70px) scale(1.1);
+}
+
+.vr-glasses {
+	background-image: url('../img/glasses.jpg');
+	background-size: cover;
+	transition-duration: 1s;
+}
+.audio {
+	background-image: url('../img/audio_system.jpg');
+	background-size: cover;
+	transition-duration: 1s;
+}
+
+.karaoke {
+	background-image: url('../img/karaoke.jpg');
+	background-size: cover;
+	transition-duration: 1s;
+}
+
+.card-game {
+	background-image: url('../img/card_game.jpg');
+	background-size: cover;
+	transition-duration: 1s;
+}
+
+.cinema {
+	background-image: url('../img/cinema.jpg');
+	background-size: cover;
+	transition-duration: 1s;
+}
+
+.ps5 {
+	background-image: url('../img/playstation.jpg');
+	background-size: cover;
+	transition-duration: 1s;
+}
+
+.vr-glasses:hover,
+.audio:hover,
+.karaoke:hover,
+.card-game:hover,
+.cinema:hover,
+.ps5:hover {
+	transform: scale(1.1);
+}

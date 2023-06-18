@@ -1,0 +1,164 @@
+.menu-section {
+	font-size: 22px;
+	text-transform: uppercase;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+
+.menu-section__divcon {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.menu-section__nav{
+	display: flex;
+	align-items: center;
+}
+
+.menu-section__list {
+	display: flex;
+}
+
+.menu-section__item:not(:last-child) {
+	margin-right: 40px;
+}
+
+.menu-section__item {
+ 	transition-duration: 0.5s;
+ 	transition-property: color;
+}
+.menu-section__item:hover {
+	color: var(--main-color);
+}
+
+.menu-section__button {
+	font-weight: 700;
+	font-size: 22px;
+	text-transform: uppercase; 
+	padding: 12px 32px 12px 32px;
+ 	border: 3px solid var(--main-color);
+ 	border-radius: 10px;
+ 	font: inherit;
+ 	color: inherit;
+ 	background-color: transparent;
+ 	cursor: pointer;
+ 	transition-duration: 0.5s;
+ 	transition-property: background-color, border;
+}
+
+.menu-section__button:hover, 
+.menu-section__button:focus {
+	background-color: var(--second-color);
+	border: 3px solid var(--second-color);
+}
+
+.menu-section__button:active {
+	background-color: var(--third-color);
+	border: 1px solid #000;
+}
+
+
+.condiv {
+	background-image: url('../img/game_over.png');
+	background-size: 675px 760px;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	max-height: 920px;
+	max-width: 1250px;
+	margin: 0 auto;
+    min-height: 100vh;
+    position: relative;
+}
+
+.condiv-section__div {
+	padding-top: 25px;
+}
+
+.con-div__title {
+	font-size: 150px;
+	font-weight: 900;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.con-div__paragraph {
+	font-size: 28px;
+	padding-left: 100px;
+	margin-bottom: 30px;
+}
+
+.condiv-section__addition-div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.addition-div__first-div {
+	margin-right: 45px;
+	margin-bottom: 150px;
+}
+
+.addition-div__text {
+	font-size: 30px;
+	text-transform: uppercase;
+	white-space: pre-line;
+	text-align: center;
+}
+
+.addition-div__text__pink {
+	font-weight: 900;
+	font-size: 100px;
+	color: var(--main-color);
+}
+.addition-div__text_small {
+	font-size: 75px;
+	padding-top: 35px;
+}
+
+.condiv-section__button {
+	font-weight: 700;
+	font-size: 26px;
+	text-transform: uppercase; 
+	padding: 25px 70px 25px 70px;
+	border: none;
+	border-radius: 10px;
+ 	color: inherit;
+ 	background-color: var(--second-color);
+ 	cursor: pointer;
+ 	box-shadow: 0 0 15px var(--second-color);
+ 	transition-duration: 0.5s;
+ 	transition-property: background-color, border;
+}
+
+.condiv-section__button:hover, 
+.condiv-section__button:focus {
+	background-color: #840AA3;
+}
+
+.condiv-section__button:active {
+	background-color: var(--third-color);
+}
+
+.header__down {
+	background-image: url('../img/down.svg');
+	width: 97px;
+	height: 97px;
+	position: absolute;
+	left: 610px;
+	bottom: 90px;
+ 	transition-duration: 0.8s;
+ 	transition-property: background-image;
+}
+
+.header__down:hover {
+	background-image: url('../img/down-hover.svg');
+}
+
+.header__down:active {
+	background-image: url('../img/down-active.svg');
+}
+
+.header__down:focus {
+	background-image: url('../img/down-focus.svg');
+}
